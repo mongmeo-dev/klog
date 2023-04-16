@@ -1,6 +1,5 @@
 package dev.mongmeo.klog
 
-import dev.mongmeo.klog.plugins.configureRouting
 import io.ktor.server.application.*
 import io.ktor.server.engine.*
 import io.ktor.server.netty.*
@@ -11,5 +10,4 @@ fun main() {
 }
 
 fun Application.module() {
-    configureRouting()
 }
