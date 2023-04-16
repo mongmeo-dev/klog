@@ -1,4 +1,4 @@
-package dev.mongmeo.plugins
+package dev.mongmeo.klog.plugins
 
 import io.ktor.server.routing.*
 import io.ktor.server.response.*

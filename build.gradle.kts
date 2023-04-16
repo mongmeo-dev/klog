@@ -10,7 +10,7 @@ plugins {
 group = "dev.mongmeo"
 version = "0.0.1"
 application {
-    mainClass.set("dev.mongmeo.ApplicationKt")
+    mainClass.set("dev.mongmeo.klog.ApplicationKt")
 
     val isDevelopment: Boolean = project.ext.has("development")
     applicationDefaultJvmArgs = listOf("-Dio.ktor.development=$isDevelopment")
